@@ -1,0 +1,265 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+34687742 reads; of these:
+  34687742 (100.00%) were paired; of these:
+    1412832 (4.07%) aligned concordantly 0 times
+    31352131 (90.38%) aligned concordantly exactly 1 time
+    1922779 (5.54%) aligned concordantly >1 times
+    ----
+    1412832 pairs aligned concordantly 0 times; of these:
+      47000 (3.33%) aligned discordantly 1 time
+    ----
+    1365832 pairs aligned 0 times concordantly or discordantly; of these:
+      2731664 mates make up the pairs; of these:
+        1493339 (54.67%) aligned 0 times
+        1138932 (41.69%) aligned exactly 1 time
+        99393 (3.64%) aligned >1 times
+97.85% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+34391514 reads; of these:
+  34391514 (100.00%) were paired; of these:
+    1435020 (4.17%) aligned concordantly 0 times
+    31150883 (90.58%) aligned concordantly exactly 1 time
+    1805611 (5.25%) aligned concordantly >1 times
+    ----
+    1435020 pairs aligned concordantly 0 times; of these:
+      49471 (3.45%) aligned discordantly 1 time
+    ----
+    1385549 pairs aligned 0 times concordantly or discordantly; of these:
+      2771098 mates make up the pairs; of these:
+        1517881 (54.78%) aligned 0 times
+        1151245 (41.54%) aligned exactly 1 time
+        101972 (3.68%) aligned >1 times
+97.79% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+32059284 reads; of these:
+  32059284 (100.00%) were paired; of these:
+    1367230 (4.26%) aligned concordantly 0 times
+    29011485 (90.49%) aligned concordantly exactly 1 time
+    1680569 (5.24%) aligned concordantly >1 times
+    ----
+    1367230 pairs aligned concordantly 0 times; of these:
+      48728 (3.56%) aligned discordantly 1 time
+    ----
+    1318502 pairs aligned 0 times concordantly or discordantly; of these:
+      2637004 mates make up the pairs; of these:
+        1445413 (54.81%) aligned 0 times
+        1089254 (41.31%) aligned exactly 1 time
+        102337 (3.88%) aligned >1 times
+97.75% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+31771713 reads; of these:
+  31771713 (100.00%) were paired; of these:
+    1281781 (4.03%) aligned concordantly 0 times
+    28516423 (89.75%) aligned concordantly exactly 1 time
+    1973509 (6.21%) aligned concordantly >1 times
+    ----
+    1281781 pairs aligned concordantly 0 times; of these:
+      37708 (2.94%) aligned discordantly 1 time
+    ----
+    1244073 pairs aligned 0 times concordantly or discordantly; of these:
+      2488146 mates make up the pairs; of these:
+        1366369 (54.92%) aligned 0 times
+        1008265 (40.52%) aligned exactly 1 time
+        113512 (4.56%) aligned >1 times
+97.85% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+33140498 reads; of these:
+  33140498 (100.00%) were paired; of these:
+    1302967 (3.93%) aligned concordantly 0 times
+    29835330 (90.03%) aligned concordantly exactly 1 time
+    2002201 (6.04%) aligned concordantly >1 times
+    ----
+    1302967 pairs aligned concordantly 0 times; of these:
+      42802 (3.28%) aligned discordantly 1 time
+    ----
+    1260165 pairs aligned 0 times concordantly or discordantly; of these:
+      2520330 mates make up the pairs; of these:
+        1410289 (55.96%) aligned 0 times
+        1019238 (40.44%) aligned exactly 1 time
+        90803 (3.60%) aligned >1 times
+97.87% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+34494035 reads; of these:
+  34494035 (100.00%) were paired; of these:
+    1327285 (3.85%) aligned concordantly 0 times
+    31082677 (90.11%) aligned concordantly exactly 1 time
+    2084073 (6.04%) aligned concordantly >1 times
+    ----
+    1327285 pairs aligned concordantly 0 times; of these:
+      48088 (3.62%) aligned discordantly 1 time
+    ----
+    1279197 pairs aligned 0 times concordantly or discordantly; of these:
+      2558394 mates make up the pairs; of these:
+        1366359 (53.41%) aligned 0 times
+        1063917 (41.59%) aligned exactly 1 time
+        128118 (5.01%) aligned >1 times
+98.02% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+35438437 reads; of these:
+  35438437 (100.00%) were paired; of these:
+    1432055 (4.04%) aligned concordantly 0 times
+    32040623 (90.41%) aligned concordantly exactly 1 time
+    1965759 (5.55%) aligned concordantly >1 times
+    ----
+    1432055 pairs aligned concordantly 0 times; of these:
+      48199 (3.37%) aligned discordantly 1 time
+    ----
+    1383856 pairs aligned 0 times concordantly or discordantly; of these:
+      2767712 mates make up the pairs; of these:
+        1482824 (53.58%) aligned 0 times
+        1170291 (42.28%) aligned exactly 1 time
+        114597 (4.14%) aligned >1 times
+97.91% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Warning: Same mate file "fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq" appears as argument to both -1 and -2
+33442327 reads; of these:
+  33442327 (100.00%) were paired; of these:
+    33321528 (99.64%) aligned concordantly 0 times
+    1549 (0.00%) aligned concordantly exactly 1 time
+    119250 (0.36%) aligned concordantly >1 times
+    ----
+    33321528 pairs aligned concordantly 0 times; of these:
+      26264689 (78.82%) aligned discordantly 1 time
+    ----
+    7056839 pairs aligned 0 times concordantly or discordantly; of these:
+      14113678 mates make up the pairs; of these:
+        903215 (6.40%) aligned 0 times
+        9380406 (66.46%) aligned exactly 1 time
+        3830057 (27.14%) aligned >1 times
+98.65% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+33745478 reads; of these:
+  33745478 (100.00%) were paired; of these:
+    1169495 (3.47%) aligned concordantly 0 times
+    30657230 (90.85%) aligned concordantly exactly 1 time
+    1918753 (5.69%) aligned concordantly >1 times
+    ----
+    1169495 pairs aligned concordantly 0 times; of these:
+      36248 (3.10%) aligned discordantly 1 time
+    ----
+    1133247 pairs aligned 0 times concordantly or discordantly; of these:
+      2266494 mates make up the pairs; of these:
+        1216870 (53.69%) aligned 0 times
+        953831 (42.08%) aligned exactly 1 time
+        95793 (4.23%) aligned >1 times
+98.20% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+32840352 reads; of these:
+  32840352 (100.00%) were paired; of these:
+    1322495 (4.03%) aligned concordantly 0 times
+    29652942 (90.29%) aligned concordantly exactly 1 time
+    1864915 (5.68%) aligned concordantly >1 times
+    ----
+    1322495 pairs aligned concordantly 0 times; of these:
+      38472 (2.91%) aligned discordantly 1 time
+    ----
+    1284023 pairs aligned 0 times concordantly or discordantly; of these:
+      2568046 mates make up the pairs; of these:
+        1396318 (54.37%) aligned 0 times
+        1061224 (41.32%) aligned exactly 1 time
+        110504 (4.30%) aligned >1 times
+97.87% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+32894526 reads; of these:
+  32894526 (100.00%) were paired; of these:
+    1300331 (3.95%) aligned concordantly 0 times
+    29590293 (89.96%) aligned concordantly exactly 1 time
+    2003902 (6.09%) aligned concordantly >1 times
+    ----
+    1300331 pairs aligned concordantly 0 times; of these:
+      35996 (2.77%) aligned discordantly 1 time
+    ----
+    1264335 pairs aligned 0 times concordantly or discordantly; of these:
+      2528670 mates make up the pairs; of these:
+        1375865 (54.41%) aligned 0 times
+        1034965 (40.93%) aligned exactly 1 time
+        117840 (4.66%) aligned >1 times
+97.91% overall alignment rate
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+33414876 reads; of these:
+  33414876 (100.00%) were paired; of these:
+    1251507 (3.75%) aligned concordantly 0 times
+    30244478 (90.51%) aligned concordantly exactly 1 time
+    1918891 (5.74%) aligned concordantly >1 times
+    ----
+    1251507 pairs aligned concordantly 0 times; of these:
+      38124 (3.05%) aligned discordantly 1 time
+    ----
+    1213383 pairs aligned 0 times concordantly or discordantly; of these:
+      2426766 mates make up the pairs; of these:
+        1335076 (55.01%) aligned 0 times
+        990738 (40.83%) aligned exactly 1 time
+        100952 (4.16%) aligned >1 times
+98.00% overall alignment rate

@@ -1,10 +1,4 @@
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+1_1
 34687742 reads; of these:
   34687742 (100.00%) were paired; of these:
     1412832 (4.07%) aligned concordantly 0 times
@@ -20,13 +14,8 @@ perl: warning: Falling back to the standard locale ("C").
         1138932 (41.69%) aligned exactly 1 time
         99393 (3.64%) aligned >1 times
 97.85% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+1_2
 34391514 reads; of these:
   34391514 (100.00%) were paired; of these:
     1435020 (4.17%) aligned concordantly 0 times
@@ -42,13 +31,8 @@ perl: warning: Falling back to the standard locale ("C").
         1151245 (41.54%) aligned exactly 1 time
         101972 (3.68%) aligned >1 times
 97.79% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+1_5
 32059284 reads; of these:
   32059284 (100.00%) were paired; of these:
     1367230 (4.26%) aligned concordantly 0 times
@@ -64,13 +48,8 @@ perl: warning: Falling back to the standard locale ("C").
         1089254 (41.31%) aligned exactly 1 time
         102337 (3.88%) aligned >1 times
 97.75% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+2_2
 31771713 reads; of these:
   31771713 (100.00%) were paired; of these:
     1281781 (4.03%) aligned concordantly 0 times
@@ -86,13 +65,8 @@ perl: warning: Falling back to the standard locale ("C").
         1008265 (40.52%) aligned exactly 1 time
         113512 (4.56%) aligned >1 times
 97.85% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+2_3
 33140498 reads; of these:
   33140498 (100.00%) were paired; of these:
     1302967 (3.93%) aligned concordantly 0 times
@@ -108,13 +82,8 @@ perl: warning: Falling back to the standard locale ("C").
         1019238 (40.44%) aligned exactly 1 time
         90803 (3.60%) aligned >1 times
 97.87% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+2_4
 34494035 reads; of these:
   34494035 (100.00%) were paired; of these:
     1327285 (3.85%) aligned concordantly 0 times
@@ -130,13 +99,8 @@ perl: warning: Falling back to the standard locale ("C").
         1063917 (41.59%) aligned exactly 1 time
         128118 (5.01%) aligned >1 times
 98.02% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+3_2
 35438437 reads; of these:
   35438437 (100.00%) were paired; of these:
     1432055 (4.04%) aligned concordantly 0 times
@@ -152,13 +116,8 @@ perl: warning: Falling back to the standard locale ("C").
         1170291 (42.28%) aligned exactly 1 time
         114597 (4.14%) aligned >1 times
 97.91% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+3_4
 Warning: Same mate file "fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq" appears as argument to both -1 and -2
 33442327 reads; of these:
   33442327 (100.00%) were paired; of these:
@@ -175,13 +134,8 @@ Warning: Same mate file "fastq/3_4_L3_R1_001_QDBZnz0vm8Gd.fastq" appears as argu
         9380406 (66.46%) aligned exactly 1 time
         3830057 (27.14%) aligned >1 times
 98.65% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+3_7
 33745478 reads; of these:
   33745478 (100.00%) were paired; of these:
     1169495 (3.47%) aligned concordantly 0 times
@@ -197,13 +151,8 @@ perl: warning: Falling back to the standard locale ("C").
         953831 (42.08%) aligned exactly 1 time
         95793 (4.23%) aligned >1 times
 98.20% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+P1
 32840352 reads; of these:
   32840352 (100.00%) were paired; of these:
     1322495 (4.03%) aligned concordantly 0 times
@@ -219,13 +168,8 @@ perl: warning: Falling back to the standard locale ("C").
         1061224 (41.32%) aligned exactly 1 time
         110504 (4.30%) aligned >1 times
 97.87% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+P2
 32894526 reads; of these:
   32894526 (100.00%) were paired; of these:
     1300331 (3.95%) aligned concordantly 0 times
@@ -241,13 +185,8 @@ perl: warning: Falling back to the standard locale ("C").
         1034965 (40.93%) aligned exactly 1 time
         117840 (4.66%) aligned >1 times
 97.91% overall alignment rate
-perl: warning: Setting locale failed.
-perl: warning: Please check that your locale settings:
-	LANGUAGE = (unset),
-	LC_ALL = (unset),
-	LANG = "C.UTF-8"
-    are supported and installed on your system.
-perl: warning: Falling back to the standard locale ("C").
+
+P3
 33414876 reads; of these:
   33414876 (100.00%) were paired; of these:
     1251507 (3.75%) aligned concordantly 0 times

@@ -1,3 +1,4 @@
 *.out
 *.ht2
 *.fastq
+*.sam

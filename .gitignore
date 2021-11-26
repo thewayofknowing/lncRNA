@@ -2,3 +2,7 @@
 *.ht2
 *.fastq
 *.sam
+*.bam
+*.bam.*
+*.fai
+*.o

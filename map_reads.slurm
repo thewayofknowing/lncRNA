@@ -8,7 +8,7 @@
 #SBATCH --mem=40G
 #SBATCH --output=slurm_output/output_alignment_%j.o
 
-#SBATCH --array=0-11
+#SBATCH --array=0-11%6
 
 module add UHTS/Aligner/hisat/2.2.1
 

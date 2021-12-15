@@ -7,3 +7,5 @@
 *.fai
 *.o
 *.gtf
+*.gff
+*.idx

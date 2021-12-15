@@ -8,7 +8,7 @@
 #SBATCH --mem=50G
 #SBATCH --output=slurm_output/output_bam_%j.o
 
-#SBATCH --array=1-11%8
+#SBATCH --array=0-11%6
 
 
 bam_index_file=reference/GCF_000001405.26_GRCh38_genomic.fna.fai

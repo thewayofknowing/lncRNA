@@ -2,12 +2,12 @@
 
 #SBATCH --mail-type=fail,success
 #SBATCH --job-name="KallistoQuant"
-#SBATCH --nodes=2
+#SBATCH --nodes=8
 #SBATCH --cpus-per-task=4
 #SBATCH --time=24:00:00
-#SBATCH --mem=15G
+#SBATCH --mem=25G
 #SBATCH --output=slurm_output/output_quantify_%j.o
-#SBATCH --array=0-11%2
+#SBATCH --array=0-11%4
 
 
 reference_folder=/data/users/kkohli/rnaseq/lncRNA/reference
@@ -33,7 +33,7 @@ output_dir="/data/users/kkohli/rnaseq/lncRNA/archive/kallisto/${output_dir_suffi
 #BUILD KALLISTO INDEX
 # kallisto index --make-unique -i $reference_folder/hg38_kallisto.idx $stringtie_output_folder/*_transcript.fa
 
-kallisto quant -t 4 -b 10 -i $reference_folder/hg38_kallisto.idx -o $output_dir fastq/$forward_read_filename fastq/$reverse_read_filename 
+kallisto quant -t 4 -b 10 --rf-stranded -i $reference_folder/hg38_kallisto.idx -o $output_dir fastq/$forward_read_filename fastq/$reverse_read_filename 
 																			
 
     

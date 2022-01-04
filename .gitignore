@@ -9,3 +9,4 @@
 *.gtf
 *.gff
 *.idx
+fastqc_output/*

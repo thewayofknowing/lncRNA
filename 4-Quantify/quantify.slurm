@@ -9,10 +9,9 @@
 #SBATCH --output=slurm_output/output_quantify_%j.o
 #SBATCH --array=0-11%4
 
-
-reference_folder=/data/users/kkohli/rnaseq/lncRNA/reference
-reference_annotation_file=$reference_folder/GCF_000001405.26_GRCh38_genomic.gff
-stringtie_output_folder=/data/users/kkohli/rnaseq/lncRNA/gtf
+data=/data/users/kkohli/rnaseq/lncRNA/data
+reference_annotation_file=$data/reference/GRCh38.primary_assembly.genome.fa
+stringtie_output_folder=$data/gtf
 
 module add UHTS/Analysis/kallisto/0.46.0;
 
@@ -29,9 +28,6 @@ output_dir_suffix=("1_1" "1_2" "1_5" "2_2" "2_3" "2_4" "3_2" "3_4" "3_7" "P1" "P
 forward_read_filename=${forward_reads[$SLURM_ARRAY_TASK_ID]}
 reverse_read_filename=${reverse_reads[$SLURM_ARRAY_TASK_ID]}
 output_dir="/data/users/kkohli/rnaseq/lncRNA/archive/kallisto/${output_dir_suffix[$SLURM_ARRAY_TASK_ID]}"
-
-#BUILD KALLISTO INDEX
-# kallisto index --make-unique -i $reference_folder/hg38_kallisto.idx $stringtie_output_folder/*_transcript.fa
 
 kallisto quant -t 4 -b 10 --rf-stranded -i $reference_folder/hg38_kallisto.idx -o $output_dir fastq/$forward_read_filename fastq/$reverse_read_filename 
 																			

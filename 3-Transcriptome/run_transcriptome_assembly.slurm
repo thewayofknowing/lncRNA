@@ -5,13 +5,14 @@
 #SBATCH --nodes=8
 #SBATCH --cpus-per-task=4
 #SBATCH --time=24:00:00
-#SBATCH --mem=50G
-#SBATCH --output=slurm_output/output_transcriptome_%j.o
+#SBATCH --mem=25G
+#SBATCH --output=output_transcriptome_%j.o
 #SBATCH --array=0-11%6
 
-reference_annotation_file=reference/GCF_000001405.26_GRCh38_genomic.gff
-bam_files_folder=bam
-stringtie_output_folder=gtf
+data=data=/data/users/kkohli/rnaseq/lncRNA/data
+reference_annotation_file=$data/reference/gencode.v38.annotation.gtf
+bam_files_folder=$data/bam
+stringtie_output_folder=$data/gtf
 
 stringtie=/data/users/kkohli/rnaseq/stringtie2.3/stringtie
 #module add UHTS/Aligner/stringtie/1.3.3b;

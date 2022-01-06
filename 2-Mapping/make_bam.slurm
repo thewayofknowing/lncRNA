@@ -10,10 +10,10 @@
 
 #SBATCH --array=0-11%6
 
-
-bam_index_file=reference/GCF_000001405.26_GRCh38_genomic.fna.fai
-sam_files_folder=sam
-bam_files_folder=bam
+data=/data/users/kkohli/rnaseq/lncRNA/data
+bam_index_file=$data/reference/GRCh38.primary_assembly.genome.fa
+sam_files_folder=$data/sam
+bam_files_folder=$data/bam
 
 module add UHTS/Analysis/samtools/1.10
 

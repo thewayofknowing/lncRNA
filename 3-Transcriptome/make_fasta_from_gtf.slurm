@@ -9,8 +9,9 @@
 #SBATCH --output=slurm_output/output_transcriptome_%j.o
 #SBATCH --array=0-11%6
 
-reference_file=reference/GCF_000001405.26_GRCh38_genomic.fna
-stringtie_output_folder=gtf
+data=/data/users/kkohli/rnaseq/lncRNA/data
+reference_file=$data/reference/GRCh38.primary_assembly.genome.fa
+stringtie_output_folder=$data/gtf
 
 module add UHTS/Assembler/cufflinks/2.2.1;
 
@@ -19,4 +20,4 @@ sam_file_names=("1_1_L3" "1_2_L3" "1_5_L3" "2_2_L3" "2_3_L3" "2_4_L3" "3_2_L3" "
 
 filename=${sam_file_names[$SLURM_ARRAY_TASK_ID]}
 
-gffread -w $stringtie_output_folder/$filename\_transcript.fa -g $reference_file gtf/$filename\.gtf
+gffread -w $stringtie_output_folder/$filename\_transcript.fa -g $reference_file $stringtie_output_folder/$filename\.gtf

@@ -2,11 +2,10 @@
 *.ht2
 *.fastq
 *.sam
-*.bam
-*.bam.*
+*.bam*
 *.fai
 *.o
 *.gtf
 *.gff
 *.idx
-fastqc_output/*
+*.zip

@@ -16,4 +16,4 @@ transcriptome_bed=$data_folder/gtf/merged.bed
 
 module add UHTS/Analysis/BEDTools/2.29.2;
 
-bedtools window -a $hg38_tss_bed -b $transcriptome_bed -w 100
+bedtools window -a $transcriptome_bed -b $hg38_tss_bed -w 100

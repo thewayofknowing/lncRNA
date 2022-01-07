@@ -9,7 +9,7 @@
 #SBATCH --output=output_transcriptome_%j.o
 #SBATCH --array=0-11%6
 
-data=data=/data/users/kkohli/rnaseq/lncRNA/data
+data=/data/users/kkohli/rnaseq/lncRNA/data
 reference_annotation_file=$data/reference/gencode.v38.annotation.gtf
 bam_files_folder=$data/bam
 stringtie_output_folder=$data/gtf
@@ -27,3 +27,6 @@ $stringtie -o $stringtie_output_folder/$filename\.gtf -p 4 --rf -G $reference_an
 
 #JUST RUN ON COMMAND LINE TO AVOID RACE CONDITION WITH SLURM ARRAYS										
 #stringtie -o merged.gtf --merge *.gtf
+# module add UHTS/Analysis/bedops/2.4.40;
+# convert2bed --input=gtf --output=bed < merged.gtf > merged.bed
+

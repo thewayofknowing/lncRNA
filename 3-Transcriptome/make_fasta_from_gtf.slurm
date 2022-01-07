@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --time=24:00:00
 #SBATCH --mem=10G
-#SBATCH --output=slurm_output/output_transcriptome_%j.o
+#SBATCH --output=output_transcriptome_%j.o
 #SBATCH --array=0-11%6
 
 data=/data/users/kkohli/rnaseq/lncRNA/data

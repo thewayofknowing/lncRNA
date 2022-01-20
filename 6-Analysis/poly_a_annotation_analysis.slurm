@@ -11,9 +11,9 @@
 
 data_folder=/data/users/kkohli/rnaseq/lncRNA/data
 
-hg38_tss_bed=$data_folder/gtf/atlas.clusters.2.0.GRCh38.96.bed
+hg38_polyA_bed=$data_folder/gtf/atlas.clusters.2.0.GRCh38.96.bed
 transcriptome_bed=$data_folder/gtf/merged.bed
 
 module add UHTS/Analysis/BEDTools/2.29.2;
 
-bedtools window -a $transcriptome_bed -b $hg38_tss_bed -w 100
+bedtools window -a $transcriptome_bed -b $hg38_polyA_bed -w 100

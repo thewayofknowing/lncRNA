@@ -26,7 +26,7 @@ filename=${sam_file_names[$SLURM_ARRAY_TASK_ID]}
 $stringtie -o $stringtie_output_folder/$filename\.gtf -p 4 --rf -G $reference_annotation_file $bam_files_folder/$filename\.bam
 
 #JUST RUN ON COMMAND LINE TO AVOID RACE CONDITION WITH SLURM ARRAYS										
-#stringtie -o merged.gtf --merge *.gtf
+#$stringtie -o merged.gtf -G $reference_annotation_file --merge *.gtf
 # module add UHTS/Analysis/bedops/2.4.40;
 # convert2bed --input=gtf --output=bed < merged.gtf > merged.bed
 

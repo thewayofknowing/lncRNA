@@ -11,7 +11,7 @@
 
 data_folder=/data/users/kkohli/rnaseq/lncRNA/data
 
-reference=$data_folder/reference/gencode.v38.annotation.bed
+reference=$data_folder/reference/protein.coding.gencode.gtf
 transcriptome_bed=$data_folder/gtf/merged.bed
 
 module add UHTS/Analysis/BEDTools/2.29.2;

@@ -63,6 +63,10 @@ _Sleuth_ is a popular tool for Differential Gene Expression analysis, and it has
  Precomputed Hexamer table - <code>Human_Hexamer.tsv</code> & Model file - <code>Human_logitModel.RData</code> can be obtained from [CPAT Sourceforge](https://sourceforge.net/projects/rna-cpat/files/v1.2.2/prebuilt_model/) page
  
  #### 3) Intergenic transcripts
- We prioritize the transcripts that are inter-genic as they have a higher likelihood to be regulators of the respective gene expressions.
+ We prioritize the transcripts that are inter-genic as they have a higher likelihood to be regulators of the respective gene expressions. For this we use _bedtools window_ with <code>-v</code> parameter which allows us to pick sequences in A which don't overlap with B
+  ```
+ bedtools window -v -a $transcriptome_bed -b $reference 
+  ```
+  
  
 ### Finally, using all the filters from Step 6. we propose a ranked list of gene candidates that can be tested for therapeutic value in treating NSCLC

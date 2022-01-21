@@ -1,6 +1,7 @@
 setwd("~/UniBe/HS2021/RNA Seq")
 
 library(sleuth)
+library(dplyr)
 
 run_wt <- function(so, coeff, gene_mode = FALSE) {
   oe <- sleuth_wt(so, which_beta = coeff)
@@ -46,6 +47,11 @@ t2g <- biomaRt::getBM(attributes = c("ensembl_transcript_id", "ensembl_gene_id",
                                      "external_gene_name"), mart = mart)
 t2g <- dplyr::rename(t2g, target_id = ensembl_transcript_id,
                      ens_gene = ensembl_gene_id, ext_gene = external_gene_name)
+
+t2g <- read.table('lncRNA/3-Transcriptome/pretty_merged_gtf.tsv', header = TRUE)
+t2g <- unique(t2g %>% select(transcript_id, gene_id, ref_gene_id, gene_name))
+t2g <- t2g %>% rename(target_id = gene_id, ens_gene = ref_gene_id)
+
 
 run_sleuth('experiment', TRUE)
 
